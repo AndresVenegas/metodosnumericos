@@ -1,0 +1,10 @@
+"""
+Create a function that takes a list of numbers and returns the mean value.
+"""
+def mean(lst):
+  r = 0
+  for n in lst:
+    r += n
+  r = r/len(lst)
+  return round(r, 2)
+	
