@@ -1,0 +1,5 @@
+"""
+Return the Sum of the Two Smallest Numbers
+"""
+def sum_two_smallest_nums(lst):
+	  return sum(sorted([a for a in lst if a > 0])[:2])
